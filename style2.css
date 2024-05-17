@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 13%;
+  background: #fde3a7;
+}
+
+h1 {
+  color: #17639c;
+  text-transform: uppercase;
+  font-size: 5vw;
+  margin-bottom: -2.5;
+}
+
+p {
+  color: #d13297;
+  font-size: 5vw;
+  font-weight: 700;
+  margin-bottom: 4vw;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+
+.container .bx {
+  border-radius: 10px;
+  height: 14.25rem;
+  background: #e0e1dc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.5);
+}
+
+.container .bx .caption {
+  color: #1bbc9b;
+}
+
+.container .bx .counter {
+  color: #c0392b;
+  font-size: 5rem;
+  font-weight: 700;
+}
