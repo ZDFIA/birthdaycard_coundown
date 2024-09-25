@@ -51,7 +51,7 @@
       <div class="card">
         <div class="imgBox">
           <div class="bark"></div>
-          <img src="img/cover.jpg" alt="" />
+          <img src="assets/img/cover.jpg" alt="" />
         </div>
         <div class="details">
           <h4 class="color1">HAPPY BIRTHDAY</h4>
@@ -63,10 +63,16 @@
             world more beautiful with your presence. May today bring unexpected
             happiness and endless love. Happy birthday, sweetheart
           </p>
-          <p class="text-right">Happy Birthday, my Love!</p>
+          <p class="text-right">Happy Birthday, My Love!</p>
           <p class="text-right">Mira Syuriyani</p>
         </div>
       </div>
+      <audio autoplay loop>
+        <source src="assets/audio/lover.mp3" type="audio/mpeg" />
+        <source src="assets/audio/lover.ogg" type="audio/ogg" />
+        <source src="assets/audio/lover.wav" type="audio/wav" />
+        Your browser does not support the audio element.
+      </audio>
       <?php
     }
     else{
@@ -91,10 +97,15 @@
           <div class="caption">Seconds</div>
         </div>
       </div>
+      <audio autoplay loop>
+        <source src="assets/audio/style.mp3" type="audio/mpeg" />
+        <source src="assets/audio/style.ogg" type="audio/ogg" />
+        <source src="assets/audio/style.wav" type="audio/wav" />
+        Your browser does not support the audio element.
+      </audio>
       <?php
     }
     ?>
-
     <script>
       var targetDate = new Date('May 31, 2024 00:00:00').getTime();
 
